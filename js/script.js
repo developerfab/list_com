@@ -7,5 +7,5 @@ function purge_url(){
 	else{
 		id_url =url.split("https://www.youtube.com/watch?v=");
 	}
-	$('#you').html('<iframe width="500" height="500" src="http://www.youtube.com/embed/'+id_url[1]+'" frameborder="0" allowfullscreen></iframe>');
+	$('#you').html('<iframe width="400" height="300" src="http://www.youtube.com/embed/'+id_url[1]+'?playlist=vQ3RF6FXFug,YaSt3K47iMc&theme=ligth" frameborder="0" allowfullscreen></iframe>');
 }
